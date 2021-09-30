@@ -1,0 +1,46 @@
+body{
+  background-color: #FFB27A;
+  text-align: center;
+}
+
+header{
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form{
+  margin-top: 100px;
+  
+}
+.form input,button,select{
+  font-size: 20px;
+  
+}
+.form button{
+  margin-right: 20px;
+  color: red;
+}
+.todolist{
+  margin-top: 100px;
+}
+.todo{
+  display: flex;
+  justify-content: center;
+}
+.todo li{
+  list-style: none;
+  background-color: white;
+  width: 200px;
+  padding-top: 5px ;
+  text-align: left;
+  font-family: sans-serif;
+
+}
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
